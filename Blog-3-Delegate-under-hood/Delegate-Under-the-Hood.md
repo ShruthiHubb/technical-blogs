@@ -10,7 +10,7 @@ I am considering 2 scenarios here:
 1. Creating a GitHub Connector
 2. Creating a Microsoft Azure Cloud Connector
 
-Scenario: 1
+**Scenario 1:**
 As an example, I'm creating a "New Connector" for one of the code repositories, [GitHub](https://docs.harness.io/article/jd77qvieuw-add-a-git-hub-connector). According to the use case, you can create any type of connector.
 
 To have more options in the drop-down for delegate selection and to select "Use any available delegate", I have set up 2 delegates in this example.
@@ -24,7 +24,7 @@ Let us see the delegate picked up! As I have selected the option: ‘Use any ava
 
 It chose, 2nd one for the task execution (we can see the delegate id that will accomplish this task). 
 
-Scenario 2:
+**Scenario 2:**
 I have a pair of delegates up and running on my AKS. Refer to the doc [delegate requirement](https://docs.harness.io/article/lwynqsgxt9-delegate-requirements-and-limitations) before creating a Kubernetes cluster.
 
 We can see the delegates that we created are ‘CONNECTED’.  
